@@ -9,7 +9,7 @@ env:
 
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get nasm
+  - sudo apt-get install nasm
 
 install:
   - git clone https://github.com/nerdvegas/rez.git
