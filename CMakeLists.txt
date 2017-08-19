@@ -24,6 +24,6 @@ ExternalProject_add(
 )
 
 install(
-    FILES cmake/jpeg.cmake
+    FILES cmake/jpeg.cmake cmake/FindJPEG.cmake
     DESTINATION cmake
 )
